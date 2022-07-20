@@ -1,4 +1,9 @@
+import { ApiProperty } from '@nestjs/swagger';
+
 export class FilterProductDTO {
-    search: string;
-    category: string;
-  }
+  @ApiProperty()
+  search: string;
+
+  @ApiProperty()
+  category: string;
+}

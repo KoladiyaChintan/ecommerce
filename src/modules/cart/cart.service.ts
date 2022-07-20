@@ -56,7 +56,6 @@ export class CartService {
         const item = cart.items[itemIndex];
         item.quantity = Number(item.quantity) + Number(quantity);
         item.subTotalPrice = item.quantity * item.price;
-
         cart.items[itemIndex] = item;
         this.recalculateCart(cart);
         return cart.save();

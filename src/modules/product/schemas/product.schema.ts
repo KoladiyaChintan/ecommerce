@@ -10,16 +10,16 @@ export class Product {
   @Prop()
   name: string;
 
-    @ApiProperty()
-    @Prop()
+  @ApiProperty()
+  @Prop()
   description: string;
 
-    @ApiProperty()
-    @Prop()
+  @ApiProperty()
+  @Prop()
   price: number;
 
-    @ApiProperty()
-    @Prop()
+  @ApiProperty()
+  @Prop()
   category: string;
 }
 
